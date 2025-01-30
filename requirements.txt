@@ -1,3 +1,5 @@
 Flask
 kafka-python
 psycopg2
+json
+logging

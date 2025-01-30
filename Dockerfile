@@ -9,4 +9,5 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-CMD [ "python", "main.py" ]
+CMD ["sh", "-c", "python -m app.kafka_utils & python main.py"]
+
